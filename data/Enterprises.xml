@@ -1,0 +1,12 @@
+<ModelList xmlns="http://www.onenetwork.com/Platform">
+  <ValueChainId>9052</ValueChainId>
+  <CustomModelName>Standard Enterprise</CustomModelName>
+  <ActionName>PLT.InsertOrUpdate</ActionName>
+  <Enterprise>
+    <Name>SampleEnterprise</Name>
+    <ValueChainId>9052</ValueChainId>
+    <DisplayName>Sample Enterprise</DisplayName>
+    <Description>Sample Enterprise</Description>
+    <TypeName>Standard Enterprise</TypeName>
+  </Enterprise>
+</ModelList>

@@ -1,0 +1,3 @@
+#* Name,Enterprise Name,Access Mode,Email,First Name,Last Name
+BookstoreAdmin,,All,BookstoreAdmin@notrealemail.com,John,Doe
+BookstoreUser,SampleEnterprise,All,BookstoreUser@notrealemail.com,Rob,Smith

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProcessType xmlns="http://www.onenetwork.com/Platform">
+    <SchemaVersion>18</SchemaVersion>
+    <Name>Standard Process Template</Name>
+    <Version>1.0</Version>
+    <SuppressSupplyChainCore>true</SuppressSupplyChainCore>
+    <ValueChainId>9052</ValueChainId>
+    <Description>Default SPT for the Test application</Description>
+    <RoleType>
+        <IntrinsicRoleType>ZBKS.SampleRoleType</IntrinsicRoleType>
+    </RoleType>
+    

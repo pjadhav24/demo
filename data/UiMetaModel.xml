@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UiMetaModel xmlns="http://www.onenetwork.com/Platform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ValueChainId>9052</ValueChainId>
+	<Name>UI Meta Model</Name>
+	<Version>1.0</Version>
+  
+  <WebInfo>
+    <RoleTypeUiConfig menuType="tree">
+      <RoleTypeRef>
+        <IntrinsicRoleType>VALUE_CHAIN_ADMIN</IntrinsicRoleType>
+      </RoleTypeRef>
+      <WebActionGroupRef name="Integration" module="PLT"/>
+      <WebActionGroupRef name="React.Documentation" module="PLT"/>
+    </RoleTypeUiConfig>    
+  </WebInfo>
+</UiMetaModel>

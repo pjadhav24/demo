@@ -1,0 +1,25 @@
+<LoadData xmlns="http://www.onenetwork.com/Platform">
+
+  <!-- Uncomment and specify URL, instance admin username and password to load data to a remote location
+  <Location url="http://localhost" username="InstanceAdminUser" password="password"/>
+  -->
+
+  <ValueChain>data/ValueChain.xml</ValueChain>
+  <StandardProcessType>Standard Process Template.spt</StandardProcessType>
+  <UiMetaModel>data/UiMetaModel.xml</UiMetaModel>
+  
+  <!-- Load data from all modules if LoadModuleData.xml exists in module's data folder -->
+  <LoadModuleData/>
+
+  <!-- You can intermix ModelFile (xml) and InboundInterfaceFile (csv) entries below to load your model data -->
+
+  <ModelFile>data/Enterprises.xml</ModelFile>
+  <ModelFile>data/Organizations.xml</ModelFile>
+
+  <InboundInterfaceFile inboundInterface="ZBKS.RoleLoad">data/Roles.csv</InboundInterfaceFile>
+  <InboundInterfaceFile inboundInterface="ZBKS.UserLoad">data/Users.csv</InboundInterfaceFile>
+  <InboundInterfaceFile inboundInterface="ZBKS.UsroLoad">data/UserAssociations.csv</InboundInterfaceFile>
+
+  <ModelFile>data/IxmEngineConfig.xml</ModelFile>
+	  
+</LoadData>

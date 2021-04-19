@@ -1,0 +1,10 @@
+<ModelList xmlns="http://www.onenetwork.com/Platform">
+  <ValueChainId>9052</ValueChainId>
+  <CustomModelName>Standard ValueChain</CustomModelName>
+  <ActionName>PLT.InsertOrUpdate</ActionName>
+  <ValueChain>
+    <Id>9052</Id>
+    <VcName>BookstoreValueChain</VcName>
+    <TypeName>Standard ValueChain</TypeName>
+  </ValueChain>
+</ModelList>

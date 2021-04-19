@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="studio-src"/>
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry kind="lib" path="plt-classes/platform-api"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/jaxb-api.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/jsr173.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/jaxb-impl.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/jbossall-client.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/log4j.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/poi.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/poi-ooxml.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/axis.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/jaxrpc.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/wsdl4j.jar"/>
+    <classpathentry kind="src" path="/Bookstore"/>
+    
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/spring-context.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/spring-core.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/spring-tx.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/spring-aop.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/spring-beans.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/spring-expression.jar"/>
+    <classpathentry kind="var" path="ONE_SDK_PLUGIN_HOME/spring-web.jar"/>
+    
+    <classpathentry kind="output" path="studio-build"/>
+</classpath>

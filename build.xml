@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Bookstore_dataset" default="load-data" basedir=".">
+
+	<xmlproperty file="../Bookstore/module-descriptor.xml"/>
+	<property file="local.properties"/>
+	<property file="${sdk.plugin.home}/dataset-static/build.properties"/>
+	<property file="${install.root.dir}/../local.properties"/>
+	<import file="${sdk.plugin.home}/dataset-static/base-build.xml"/>
+
+	<!--
+	See the Outline view for a list of possible build tasks to execute.
+	Commonly executed tasks include "load-data" and "clean".
+
+	Before executing "unit-test" or "server-test", you must add junit.jar
+	to Ant's classpath.
+	-->
+	
+	<!-- 
+	You may define new targets or override existing targets here. 
+	
+	If you need to add custom steps to the default 'load-data' target, create a new target called 'load-data' 
+	and set its 'depends' attribute to 'base-load-data'.  This will ensure that the load-data target continues to 
+	execute all the base load-data.  Then you can add additional targets or tasks to that target which are specific to your dataset.
+	-->
+	
+</project>

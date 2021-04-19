@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Bookstore_dataset</name>
+	<comment></comment>
+	<projects>
+		<project>Bookstore</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+  <linkedResources>
+    <link>
+      <name>plt-classes</name>
+      <type>2</type>
+      <locationURI>ECLIPSE_HOME/plugins/com.onenetwork.platform.sdk_1.0.0/plt-classes</locationURI>
+    </link>
+  </linkedResources>
+</projectDescription>

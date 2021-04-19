@@ -1,0 +1,3 @@
+#* User Name,"* User Value Chain Id (#,###)",User Enterprise Name,* Role Name,"* Role Value Chain Id (#,###)",Role Enterprise Name,Role Organization Name,Role Site Name,Type Name
+BookstoreAdmin,9052,,BookstoreValueChainAdmin,9052,,,,Standard UserAssociation
+BookstoreUser,9052,SampleEnterprise,SampleRole,9052,SampleEnterprise,SampleOrg,,Standard UserAssociation

@@ -1,0 +1,31 @@
+<ModelList xmlns="http://www.onenetwork.com/Platform">
+    <ValueChainId>9052</ValueChainId>
+    <CustomModelName>Standard IxmEngineConfig</CustomModelName>
+    <ActionName>PLT.InsertOrUpdate</ActionName>
+    <IxmEngineConfig>
+        <ValueChainId>9052</ValueChainId>
+        <ConfigName>Default</ConfigName>
+        <ModulePrefix>ZBKS</ModulePrefix>
+        <EngineName>Sample</EngineName>
+        <DefaultThreadCount>1</DefaultThreadCount>
+        <TaskMaxRunTimeMillis>20000</TaskMaxRunTimeMillis>
+        <TaskMaxAttempts>1</TaskMaxAttempts>
+        <TaskRetryDelayMillis>20000</TaskRetryDelayMillis>
+        <IxmTaskGeneratorSchedule>
+            <ScheduleName>SampleSchedule</ScheduleName>
+            <ScheduleDef>
+							<![CDATA[
+								<ScheduleDef xmlns="http://www.onenetwork.com/Platform">
+									<RepeatingSchedule>
+										<IntervalInMinutes>100</IntervalInMinutes>
+										<OffsetFromHourInMinutes>0</OffsetFromHourInMinutes>
+									</RepeatingSchedule>
+								</ScheduleDef>
+							]]>            	
+            </ScheduleDef>
+            <TaskGenMaxRunTimeMillis>20000</TaskGenMaxRunTimeMillis>
+            <TaskGenMaxAttempts>1</TaskGenMaxAttempts>
+            <TaskGenRetryDelayMillis>20000</TaskGenRetryDelayMillis>
+        </IxmTaskGeneratorSchedule>
+    </IxmEngineConfig>
+</ModelList>
